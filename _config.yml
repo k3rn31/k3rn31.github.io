@@ -16,13 +16,13 @@ show_post_footers:  false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: k3rn31
 
 # Social icons
 show_social_icons: false
-github_username:
+github_username: k3rn31
 stackoverflow_id:
-twitter_username:
+twitter_username: k3rn31
 google_plus_id:
 linkedin_username:
 bitcoin_url:
