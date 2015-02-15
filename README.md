@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-# Gereksiz
-
-Gereksiz is a minimalist Jekyll theme, based on the default Jekyll theme. It is responsive, generates JSON and Atom feeds on each build, and can be easily extended. It uses Open Sans from Google Fonts.
-
-Gereksiz is the Turkish word for "unnecessary".
-
-> It supports blockquotes, too.
-
-## Gereksiz on the Internet
-
-* [Gereksiz][github] on GitHub
-* [Bugs of Berk][bob], theme creator's website
-
-[github]: https://github.com/berkoz/gereksiz/
-[bob]: http://bugsofberk.net
-=======
 # Pixyll
 
 [pixyll.com](http://www.pixyll.com)
@@ -191,4 +174,3 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 * [Refills](http://refills.bourbon.io/)
 * [Solarized](http://ethanschoonover.com/solarized)
 * [Animate.css](http://daneden.github.io/animate.css/)
->>>>>>> 57933be73e8d08b66b64caffbf59bc519040ed81
