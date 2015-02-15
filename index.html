@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: default 
 title: Gereksiz
 ---
@@ -14,4 +15,24 @@ title: Gereksiz
     </li>
     {% endfor %}
   </ul>
+=======
+layout: default
+---
+
+<div class="home">
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
+>>>>>>> 57933be73e8d08b66b64caffbf59bc519040ed81
 </div>

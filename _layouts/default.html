@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
    <head>
       <meta charset="utf-8">
@@ -23,4 +24,21 @@
          {{ content }}
       </main>
    </body>
+=======
+<html>
+{% include head.html %}
+<body class="{% if site.animated %}animated fade-in-down{% endif %}">
+  <div class="site-wrap">
+    {% include header.html %}
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+>>>>>>> 57933be73e8d08b66b64caffbf59bc519040ed81
 </html>
