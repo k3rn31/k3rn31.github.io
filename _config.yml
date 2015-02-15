@@ -1,1 +1,10 @@
-timezone: Europe/Rome
+name: "k3rn31"
+markdown: redcarpet
+highlighter: pygments
+permalink: :title
+exclude: [README.md, LICENSE, Makefile]
+
+# Information for the Atom feed
+gereksiz:
+   author: "Davide Petilli"
+   email: "indo@davidepetilli.com"
