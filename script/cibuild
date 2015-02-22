@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-set -e # halt script on error
+#!/usr/bin/env ruby
 
-bundle exec jekyll build
-bundle exec htmlproof ./_site
+require 'html/proofer'
+HTML::Proofer.new("./_site").run
