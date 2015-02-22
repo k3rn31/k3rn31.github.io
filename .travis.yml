@@ -7,3 +7,9 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 exclude: [vendor]
+
+# branch whitelist
+branches:
+  only:
+  - gh-pages     # test the gh-pages branch
+  - /pages-(.*)/ # test every branch which starts with "pages-"
