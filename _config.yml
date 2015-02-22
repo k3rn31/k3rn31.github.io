@@ -3,7 +3,7 @@ title:       k3rn31
 email:       davide.petilli@gmail.com
 author:      Davide Petilli
 description: ""
-baseurl:     ""
+baseurl:     "http://k3rn31.davidepetilli.com"
 url:         "http://k3rn31.davidepetilli.com"
 
 # Google analytics
@@ -19,7 +19,7 @@ show_post_footers:  false
 disqus_shortname: k3rn31
 
 # Social icons
-show_social_icons: false
+show_social_icons: true
 github_username: k3rn31
 stackoverflow_id:
 twitter_username: k3rn31
