@@ -6,6 +6,9 @@ description: ""
 baseurl:     ""
 url:         "http://k3rn31.davidepetilli.com"
 
+# Timezone
+timezone: Europe/Rome
+
 # Google analytics
 google_analytics:
 
