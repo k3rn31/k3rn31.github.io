@@ -1,9 +1,9 @@
 # Site settings
 title:       k3rn31
-email:       davide.petilli@gmail.com
+email:       7h3.k3rn31@gmail.com
 author:      Davide Petilli
 description: ""
-baseurl:     "http://k3rn31.davidepetilli.com"
+baseurl:     ""
 url:         "http://k3rn31.davidepetilli.com"
 
 # Google analytics
