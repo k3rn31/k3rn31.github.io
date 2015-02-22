@@ -6,5 +6,5 @@ install:
   - gem install jekyll
   - gem install html-proofer
 script:
-  - jekyll -w build
+  - jekyll build --watch
   - htmlproof _site
